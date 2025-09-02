@@ -1,0 +1,8 @@
+/* Board.css */
+.board {
+  margin: 20px 0;
+}
+
+.board-row {
+  display: flex;
+}

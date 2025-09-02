@@ -1,0 +1,36 @@
+/* Square.css */
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border: 2px solid #333;
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s;
+  outline: none;
+}
+
+.square:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.05);
+}
+
+.square.winning {
+  background-color: #ffeb3b;
+  color: #000;
+}
+
+.square.disabled {
+  cursor: not-allowed;
+  background-color: #e0e0e0;
+  transform: none;
+}
+
+.square.disabled:hover {
+  background-color: #e0e0e0;
+}
